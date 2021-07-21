@@ -1,0 +1,7 @@
+services:
+  ruby:
+    image: rubydata/datascience-notebook
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebook:/home/jovyan
